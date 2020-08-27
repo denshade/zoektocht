@@ -18,7 +18,7 @@
     <script>
         function checkAnswer()
         {
-            if ($('#answer').val() == 1493) {
+            if ($('#answer').val() == "protonen") {
                 location.href="Vraaga.html";
             } else {
                 alert("Sorry, dat is fout!");
@@ -32,10 +32,10 @@
     <div class="card" style="width: 50rem;">
         <div class="card-body">
             <h5 class="card-title">Vraag 1</h5>
-            <h1>    In welk jaar startte Christoffel zijn 2e reis naar Amerika?</h1>
+            <h1>    In een atoom zit er een atoomkern. Naast neutronen, wat kan je er nog vinden (meervoud)?</h1>
             <label>
-                Jaartal:
-                <input id="answer" class="form-control" type="number"/>
+                Wat nog te vinden naast neutronen:
+                <input id="answer" class="form-control" type="text"/>
             </label>
             <button class="btn btn-primary" onclick="checkAnswer();return false;">Opgelost!</button>
         </div>

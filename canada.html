@@ -18,7 +18,7 @@
     <script>
         function checkAnswer()
         {
-            if ($('#answer').val().toLowerCase().trim() == "alaska") {
+            if ($('#answer').val() == 384400) {
                 location.href="tafels.html";
             }else {
                 alert("Sorry, dat is fout!");
@@ -33,9 +33,9 @@
     <div class="card" style="width: 50rem;">
         <div class="card-body">
             <h5 class="card-title">Vraag 3</h5>
-            <h1>    Welk land ligt ten noordwesten van Canada?</h1>
+            <h1>    Hoever is de maan van de aarde verwijderd?</h1>
             <label>
-                <input id="answer" class="form-control" type="text"/>
+                <input id="answer" class="form-control" type="number"/>
             </label>
             <button class="btn btn-primary" onclick="checkAnswer();return false;">Opgelost!</button>
         </div>
